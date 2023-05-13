@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Responsive Site</title>
+</head>
+<body>
+    <header>
+        <nav class="nav-bar">
+            <div class="logo-text">
+                <h1>Enchanted</h1><h1>Story CD</h1>
+            </div>
+            <div class="nav-menu">
+                <a href="#home" class="nav-link">Ínicio</a>
+                <a href="#products" class="nav-link">Produtos</a>
+                <a href="#contact" class="nav-link">Contato</a>
+            </div>
+        </nav>
+    </header>
+    <main class="container">
+        <div class="button-float">
+            <button class="whatsapp-float">
+                <i class="fa-brands fa-whatsapp fa-bounce" style="color: #7020df;" id="whatsapp"></i>
+            </button>
+        </div>
+        <section id="home">
+            <div class="text-home">
+                <div class="title-section">
+                    <span class="title-span">Encomende agora sua nova versão</span><span>do álbum Speak Now &#40;Taylor&#39;s Version&#41;</span>
+                </div>
+                <div class="text-section">
+                    <p class="text">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod iusto suscipit quidem voluptatem! Animi mollitia magni reiciendis perspiciatis. Quibusdam quia accusamus suscipit accusantium corporis, excepturi fugit vero nam iure unde?
+                    </p>
+                </div>
+                <div class="button-group">
+                    <button class="button-section">
+                        <a href="#products" class="link-home"><span class="button-visible">Compre agora</span></a>
+                    </button>
+                </div>
+            </div>
+            <div class="images-album animate__animated animate__backInRight">
+                <img src="assets/images/sp-cd.webp" alt="Álbum Speak Now (Taylor's Version)" class="sn-cd">
+            </div>
+        </section><hr>
+        <section id="products">
+            <div class="text-products">
+                <div class="title-products">
+                    <h2 class="heading-products">Conheça os nossos produtos disponíveis</h2>
+                </div>
+                <div class="images-products">
+                    <div class="cd-group">
+                        <img src="assets/images/sp-cd.webp" alt="Álbum Speak Now (Taylor's Version)" class="sn-album">
+                        <span class="album-title">Speak Now (Taylor's Version) CD</span>
+                        <button class="products-shop">Eu quero</button>
+                    </div>
+                    <div class="vinil-group">
+                        <img src="assets/images/sp-vinil.webp" alt="Vinil Speak Now (Taylor's Version)" class="sn-album">
+                        <span class="album-title">Speak Now (Taylor's Version) Vinil</span>
+                        <button class="products-shop">Eu quero</button>
+                    </div>
+                    <div class="cassette-group">
+                        <img src="assets/images/sp-cassette.webp" alt="Cassete Speak Now (Taylor's Version)" class="sn-album">
+                        <span class="album-title">Speak Now (Taylor's Version) Cassete</span>
+                        <button class="products-shop">Eu quero</button>
+                    </div>
+                    <div class="digital-group">
+                        <img src="assets/images/sp-digital.webp" alt="Álbum Digital Speak Now (Taylor's Version)" class="sn-album">
+                        <span class="album-title">Speak Now (Taylor's Version) Digital</span>
+                        <button class="products-shop">Eu quero</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="form-contact">
+                <form action="#">
+                    <div class="input-box">
+                        <div class="input-group">
+                            <input type="text" name="name" id="name" class="input-name" placeholder="Nome completo" required>
+                        </div>
+                        <div class="input-group">
+                            <input type="email" name="email" id="email" class="input-email" placeholder="example@example.com" required>
+                        </div>
+                        <div class="input-group">
+                            <input type="tel" name="number" id="number" class="input-number" placeholder="(xx) xxxxx-xxxx" required>
+                        </div>
+                        <div class="input-group">
+                            <textarea name="message" id="message" rows="10" placeholder="Escreva sua mensagem"></textarea>
+                        </div>
+                    </div>
+                    <div class="assunt-group">
+                        <div class="text-assunt">
+                            <h6>Categoria:</h6>
+                        </div>
+                        <div class="check-assunt">
+                            <input type="checkbox"><span>Pedido</span>
+                        </div>
+                        <div class="check-assunt">
+                            <input type="checkbox"><span>Sugestão</span>
+                        </div>
+                        <div class="check-assunt">
+                            <input type="checkbox"><span>Reclamação</span>
+                        </div>
+                    </div>
+                    <div class="notification-contact">
+                        <div class="text-notification">
+                            <h6>Desejar receber resposta?</h6>
+                        </div>
+                        <div class="radio-notification">
+                            <input type="radio" name="radio" id="yes" checked>Sim
+                        </div>
+                        <div class="radio-notification">
+                            <input type="radio" name="radio" id="no">Não
+                        </div>
+                    </div>
+                    <div class="button-form">
+                        <button class="submit-form"><span>Enviar</span></button>
+                    </div>
+                </form>
+                <div class="social">
+                    <div class="text-contact">
+                        <h2>Speak Now</h2>
+                        <h2 class="heading-contact">entre em contato conosco!</h2>
+                    </div>
+                    <div class="image-contact">
+                        <img src="assets/images/cover-sn.jpg" alt="Capa álbum Speak Now">
+                    </div>
+                    <div class="social-media">
+                        <a href="#" class="link-social" id="instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="#" class="link-social" id="facebook">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="link-social" id="twitter">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
